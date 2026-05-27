@@ -8,11 +8,20 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "CV"
+  - title: "履历"
+    title_en: "CV"
+    title_zh: "履历"
     url: /cv/
     
-  - title: "Publications"
+  - title: "论文"
+    title_en: "Publications"
+    title_zh: "论文"
     url: /publications/
+
+  - title: "演出"
+    title_en: "Performance"
+    title_zh: "演出"
+    url: /performance/
     
   # - title: "CV"
   #   url: /cv-json/

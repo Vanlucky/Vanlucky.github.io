@@ -14,4 +14,30 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<style>
+  #site-nav .visible-links #language-toggle a {
+    min-width: 2.5rem;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  [data-lang-content="en"] {
+    display: none;
+  }
+
+  [data-lang-content="zh"] {
+    display: revert;
+  }
+
+  body[data-language="en"] [data-lang-content="en"] {
+    display: revert;
+  }
+
+  body[data-language="en"] [data-lang-content="zh"] {
+    display: none;
+  }
+</style>
+
 <!-- end custom head snippets -->
